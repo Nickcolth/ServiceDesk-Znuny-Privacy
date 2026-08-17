@@ -6,9 +6,101 @@
   <meta name="description" content="Política de Privacidade da extensão Service Desk para Znuny.">
   <title>Política de Privacidade — Service Desk para Znuny</title>
   <style>
-    :root {
-      color-scheme: light dark;
-      --bg: #f6f8fa;
-      --card: #ffffff;
-      --text: #1f2328;
-      --muted: #596
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      background: #f6f8fa;
+      color: #1f2328;
+      line-height: 1.65;
+    }
+    main {
+      max-width: 900px;
+      margin: 48px auto;
+      padding: 0 20px;
+    }
+    article {
+      background: #ffffff;
+      border: 1px solid #d0d7de;
+      border-radius: 12px;
+      padding: 36px;
+      box-shadow: 0 4px 18px rgba(0,0,0,.05);
+    }
+    h1 { margin-top: 0; font-size: 2rem; }
+    h2 { margin-top: 32px; font-size: 1.25rem; }
+    p, li { font-size: 1rem; }
+    .subtitle { color: #57606a; margin-top: -10px; }
+    .note {
+      background: #f6f8fa;
+      border-left: 4px solid #0969da;
+      padding: 14px 16px;
+      border-radius: 6px;
+    }
+    footer {
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid #d8dee4;
+      color: #57606a;
+      font-size: .95rem;
+    }
+    a { color: #0969da; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #0d1117; color: #e6edf3; }
+      article { background: #161b22; border-color: #30363d; box-shadow: none; }
+      .subtitle, footer { color: #8b949e; }
+      .note { background: #0d1117; border-left-color: #2f81f7; }
+      footer { border-top-color: #30363d; }
+      a { color: #58a6ff; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Política de Privacidade</h1>
+      <p class="subtitle"><strong>Service Desk para Znuny</strong></p>
+
+      <p>Esta Política de Privacidade descreve como a extensão <strong>Service Desk para Znuny</strong> acessa e processa informações durante o seu uso.</p>
+
+      <div class="note">
+        A extensão não envia dados ao desenvolvedor, não utiliza telemetria ou ferramentas de análise e não vende nem compartilha dados de usuários com terceiros.
+      </div>
+
+      <h2>1. Finalidade da extensão</h2>
+      <p>A extensão fornece uma interface aprimorada e ferramentas de produtividade para ambientes Service UP/Znuny. Ela funciona somente nos endereços autorizados pelo usuário e utiliza a sessão já autenticada no próprio sistema para consultar e executar operações solicitadas pelo usuário.</p>
+
+      <h2>2. Dados que podem ser processados</h2>
+      <p>Para oferecer suas funcionalidades, a extensão pode processar informações exibidas pelo próprio Service UP/Znuny, incluindo:</p>
+      <ul>
+        <li>nomes, endereços de e-mail e outras informações de identificação presentes nos chamados;</li>
+        <li>conteúdo de chamados, notas, mensagens e interações;</li>
+        <li>dados de formulários e elementos exibidos nas páginas do Znuny;</li>
+        <li>preferências e configurações da própria extensão.</li>
+      </ul>
+
+      <h2>3. Armazenamento local</h2>
+      <p>Preferências da extensão, configurações de interface, tema, layouts e a lista de endereços do Service UP/Znuny autorizados pelo usuário podem ser armazenados localmente no navegador por meio dos mecanismos de armazenamento da extensão.</p>
+
+      <h2>4. Comunicação de rede</h2>
+      <p>As comunicações de rede realizadas pela extensão são destinadas exclusivamente ao mesmo ambiente Service UP/Znuny autorizado pelo usuário. A extensão não envia informações para servidores controlados pelo desenvolvedor.</p>
+
+      <h2>5. Dados que não são coletados</h2>
+      <p>A extensão não coleta senhas, dados financeiros, informações de saúde, localização do dispositivo ou histórico geral de navegação. Ela também não utiliza mecanismos de rastreamento, publicidade ou criação de perfil de usuário.</p>
+
+      <h2>6. Compartilhamento de dados</h2>
+      <p>Os dados processados pela extensão não são vendidos, transferidos ou compartilhados pelo desenvolvedor com terceiros e não são utilizados para finalidades diferentes do funcionamento da extensão.</p>
+
+      <h2>7. Código remoto</h2>
+      <p>Todo o código JavaScript executado pela extensão está incluído no pacote publicado. A extensão não baixa nem executa código JavaScript ou WebAssembly remoto.</p>
+
+      <h2>8. Alterações nesta política</h2>
+      <p>Esta política poderá ser atualizada caso o funcionamento da extensão seja alterado. A versão publicada nesta página refletirá as práticas atuais da extensão.</p>
+
+      <footer>
+        <p><strong>Última atualização:</strong> 17 de agosto de 2026.</p>
+        <p>Publicador: Nícolas Assis</p>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>
